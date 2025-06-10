@@ -42,7 +42,7 @@ export default defineConfig({
   projects: [
     {
       name: 'SmartBear E2E Tests - Chrome',
-      testDir: './tests/e2e-tests',
+      testDir: './tests/e2e',
       dependencies: ['SmartBear Setup Tests'],
       use: { 
         ...devices['Desktop Chrome'],

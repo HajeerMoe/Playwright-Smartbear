@@ -1,0 +1,10 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="3.3145750000000005">
+<testsuite name="setup/login.spec.ts" timestamp="2025-06-10T23:46:25.897Z" hostname="SmartBear Setup Tests" tests="1" failures="0" skipped="0" time="1.278" errors="0">
+<testcase name="Login and save storage state" classname="setup/login.spec.ts" time="1.278">
+</testcase>
+</testsuite>
+<testsuite name="e2e/home-tests.spec.ts" timestamp="2025-06-10T23:46:25.897Z" hostname="SmartBear E2E Tests - Chrome" tests="1" failures="0" skipped="0" time="0.771" errors="0">
+<testcase name="Home Page verification › Validate title and url" classname="e2e/home-tests.spec.ts" time="0.771">
+</testcase>
+</testsuite>
+</testsuites>
