@@ -6,6 +6,7 @@ export default class LoginPage extends BasePage{
     readonly usernameField: Locator
     readonly passwordField: Locator
     readonly loginButton: Locator
+    readonly errorMessage: Locator
 
     constructor(page: Page) {
         super(page)
@@ -15,6 +16,7 @@ export default class LoginPage extends BasePage{
         this.usernameField = this.page.locator('#ctl00_MainContent_username')
         this.passwordField = this.page.locator('#ctl00_MainContent_password')
         this.loginButton = this.page.locator('#ctl00_MainContent_login_button')
+        this.errorMessage = this.page.locator('#ctl00_MainContent_status')
     }
 
     //Reuseable Methods
@@ -27,8 +29,8 @@ export default class LoginPage extends BasePage{
     }
 
     async login(username: string, password: string) {
-        this.enterUsername(username)
-        this.enterPassword(password)
+        await this.enterUsername(username)
+        await this.enterPassword(password)
         await this.loginButton.click()
     }
 }

@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="1.4856189999999478">
-<testsuite name="login-tests/login-visual.spec.ts" timestamp="2025-06-11T01:29:59.932Z" hostname="SmartBear Login Tests" tests="1" failures="0" skipped="0" time="0.557" errors="0">
-<testcase name="SmartBear App Login Page visual Verification › SmartBear App Login Page snapshot verification" classname="login-tests/login-visual.spec.ts" time="0.557">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="2.3214569999985395">
+<testsuite name="login-tests/login-functional.spec.ts" timestamp="2025-06-11T02:12:26.767Z" hostname="SmartBear Login Tests" tests="1" failures="0" skipped="0" time="1.335" errors="0">
+<testcase name="SmartBear App Login Page sucessful login" classname="login-tests/login-functional.spec.ts" time="1.335">
 </testcase>
 </testsuite>
 </testsuites>
