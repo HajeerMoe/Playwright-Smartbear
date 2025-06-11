@@ -1,14 +1,6 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="3.348597">
-<testsuite name="setup/login.spec.ts" timestamp="2025-06-11T00:51:42.994Z" hostname="SmartBear Setup Tests" tests="1" failures="0" skipped="0" time="1.277" errors="0">
-<testcase name="Login and save storage state" classname="setup/login.spec.ts" time="1.277">
-</testcase>
-</testsuite>
-<testsuite name="e2e/home-tests.spec.ts" timestamp="2025-06-11T00:51:42.994Z" hostname="SmartBear E2E Tests - Chrome" tests="1" failures="0" skipped="0" time="0.757" errors="0">
-<testcase name="Home Page verification › Validate title and url" classname="e2e/home-tests.spec.ts" time="0.757">
-</testcase>
-</testsuite>
-<testsuite name="login-tests/login-visual.spec.ts" timestamp="2025-06-11T00:51:42.994Z" hostname="SmartBear Login Tests" tests="1" failures="0" skipped="0" time="0.643" errors="0">
-<testcase name="SmartBear App Login Page visual Verification › Login Page Visual Regression" classname="login-tests/login-visual.spec.ts" time="0.643">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="1.4856189999999478">
+<testsuite name="login-tests/login-visual.spec.ts" timestamp="2025-06-11T01:29:59.932Z" hostname="SmartBear Login Tests" tests="1" failures="0" skipped="0" time="0.557" errors="0">
+<testcase name="SmartBear App Login Page visual Verification › SmartBear App Login Page snapshot verification" classname="login-tests/login-visual.spec.ts" time="0.557">
 </testcase>
 </testsuite>
 </testsuites>
